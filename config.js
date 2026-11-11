@@ -1,2 +1,3 @@
-// Укажите HTTPS-адрес вашего API после развёртывания сервера.
-window.ACADEMY_API_URL = 'https://YOUR-SERVER.example.com';
+// По умолчанию API обслуживается тем же сервером, что и Mini App.
+// Для отдельного API задайте window.ACADEMY_API_URL перед подключением app.js.
+window.ACADEMY_API_URL = window.ACADEMY_API_URL || window.location.origin;
