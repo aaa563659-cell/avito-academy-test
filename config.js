@@ -1,2 +1,2 @@
-// Укажите HTTPS-адрес вашего API после развёртывания сервера.
-window.ACADEMY_API_URL = 'https://YOUR-SERVER.example.com';
+// API Avito Academy обслуживается отдельно от GitHub Pages.
+window.ACADEMY_API_URL = 'https://avito-academy-api.awareclout.chatgpt.site';
